@@ -6,8 +6,8 @@ body{
     font-size: 45px;
 }
 .box{
-    width: 340px;
-    height: 230px;
+    width: 280px;
+    height: 200px;
     border: none;
     box-shadow: 2px 1px 7px 4px black;
     background-image: linear-gradient(to bottom, #f5f5c3, #bebea4);
@@ -45,4 +45,38 @@ section{
 }
 .box:hover{
     transform: rotate(0deg) scale(1.2);
+}
+@keyframes tasks{
+    0% {
+      opacity: 0;
+      transform: scale(1.7);
+    }  
+      100% {
+      opacity: 100;
+      /* transform: scale(1.2); */
+    }
+}
+.card-1{
+    animation: tasks 1s linear 0s;
+}
+.card-2{
+    animation: tasks 1s linear 0.5s;
+}
+.card-3{
+    animation: tasks 1s linear 1s;
+}
+.card-4{
+    animation: tasks 1s linear 1.5s;
+}
+.card-5{
+    animation: tasks 1s linear 2s;
+}
+.card-6{
+    animation: tasks 1s linear 2.5s;
+}
+.card-7{
+    animation: tasks 1s linear 3s;
+}
+.card-8{
+    animation: tasks 1s linear 3.5s;
 }
